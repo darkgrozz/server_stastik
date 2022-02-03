@@ -14,40 +14,34 @@ http
       res.write(" This is main page");
       res.end();
     } else if (url === "/home") {
-      fs.readFile("index.html", (err, data) => {
-        if (err) throw err;
-
-        //send respon
-        response.writeHead(200, { "Content-Type": "text/html" });
-        response.write(data);
-        response.end();
-      });
+      // fs.readFile("a_home.html", (err, data) => {
+      //   if (err) throw err;
+      //   response.writeHead(200, { "Content-Type": "text/html" });
+      //   response.write(data);
+      //   response.end();
+      // });
       res.write(" home");
       res.end();
     } else if (url === "/about") {
-      fs.readFile("a_about.html", (err, data) => {
-        if (err) throw err;
-
-        //send respon
-        response.writeHead(200, { "Content-Type": "text/html" });
-        response.write(data);
-        response.end();
-      });
+      // fs.readFile("a_about.html", (err, data) => {
+      //   if (err) throw err;
+      //   response.writeHead(200, { "Content-Type": "text/html" });
+      //   response.write(data);
+      //   response.end();
+      // });
       res.write(" about");
       res.end();
     } else if (url === "/profil") {
-      fs.readFile("a_profil.html", (err, data) => {
-        if (err) throw err;
-
-        //send respon
-        response.writeHead(200, { "Content-Type": "text/html" });
-        response.write(data);
-        response.end();
-      });
+      // fs.readFile("a_profil.html", (err, data) => {
+      //   if (err) throw err;
+      //   response.writeHead(200, { "Content-Type": "text/html" });
+      //   response.write(data);
+      //   response.end();
+      // });
       res.write(" profil");
       res.end();
     } else {
-      res.write("Hello Madda!");
+      res.write("no button buuton");
       res.end();
     }
   })
