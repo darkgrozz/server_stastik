@@ -1,0 +1,16 @@
+{
+  "name": "belajarnpm",
+  "version": "1.0.0",
+  "description": "sembarang",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "echo \"saya keren\"",
+    "server": "node server.js"
+  },
+  "keywords": [
+    "saksakmu"
+  ],
+  "author": "RIZKY",
+  "license": "ISC"
+}
